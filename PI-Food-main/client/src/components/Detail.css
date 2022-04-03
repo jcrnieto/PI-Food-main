@@ -1,0 +1,115 @@
+.detail-container {
+  padding-top: 2em;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.imagen-receta {
+  width: auto;
+  height: 190px;
+}
+
+.detail-title {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.detail-summary-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding: 1em;
+}
+
+.detail-diet {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.detail-summary {
+  color: #000;
+  text-align: center;
+  margin-bottom: 2em;
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.detail-score-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-score-title {
+  width: 50%;
+  color: #000;
+  font-size: 24px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.detail-score {
+  width: 50%;
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+}
+
+.detail-step-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+.detail-step-title {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  color: #000;
+  font-family: Arial;
+  font-style: italic;
+}
+
+.detail-step {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 3em;
+  color: #000;
+  font-family: Arial;
+}
+
+.detail-step-title {
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+}
+
+.boton-volver{
+  box-shadow: 0px 10px 14px -7px #3dc21b;
+  background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+  background-color:#44c767;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:15px 20px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  margin-left: 5px;
+  margin-bottom: 12px;
+  /*margin-top: 7px;*/
+}
