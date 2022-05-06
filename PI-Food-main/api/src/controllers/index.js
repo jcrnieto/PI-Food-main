@@ -19,9 +19,9 @@ const getDbInfo = async () => {
 const getAllRecipes = async (req, res, next) => {
     const {title} = req.query
     try{
-   const apiInfo= recetas; //await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=892adbcafb65413ca6db50b72545910c&addRecipeInformation=true&number=100`)
-   //const infoGet = apiInfo.data.results.map(el=>{
-   const infoGet = apiInfo.results.map(el=>{
+   const apiInfo= /*recetas; */await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=892adbcafb65413ca6db50b72545910c&addRecipeInformation=true&number=10`)
+   const infoGet = apiInfo.data.results.map(el=>{
+  /* const infoGet = apiInfo.results.map(el=>{*/
        return{
            id: el.id,
            imagen: el.image,
