@@ -18,9 +18,14 @@
      display: inline-block;
      color: #FFF;
      text-decoration: none;
+}
 
- }
+/*#paginador .number :hover{
+  transform:scale(2.0)
+}*/
 
  .number a:active {
     color: red;
   }
+
+ 

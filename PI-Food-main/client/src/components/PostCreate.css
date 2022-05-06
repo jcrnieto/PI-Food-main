@@ -103,3 +103,19 @@
      color: #000;
      text-decoration: none;
 }
+
+@media (max-width: 480px) {
+  .form-row-buttons {
+    width:88%;
+    margin-top: 150px;
+   
+  }
+
+  .form-column-label {
+    font-size: 18px;
+  }
+
+  .form-row {
+    margin-bottom: 25px;
+  }
+}

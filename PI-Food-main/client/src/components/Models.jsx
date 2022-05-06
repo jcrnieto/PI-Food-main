@@ -28,12 +28,12 @@ function Models({
             <div className="detail-step-container">
               <div className="detail-step-title">Dietas</div>
             </div>
-            <div className="detail-step-container">
+            <div className="">
               <div className="detail-step">{dietsFinal}</div>
             </div>
           </>
         ) : null}
-        <div className="detail-step-container">
+        <div className="">
           <div className="detail-step-title">Detalle</div>
         </div>
         <div
@@ -51,7 +51,7 @@ function Models({
         <div className="detail-step-container">
           <div className="detail-step-title">Paso a paso</div>
         </div>
-        <div className="detail-step-container">
+        <div className="detail-pasoapaso">
           <div className="detail-step">{analyzedInstructions}</div>
         </div>
         <div className='div-botton-volver'><Link to={'/home'}><button className='boton-volver'>Volver a página principal</button></Link></div>

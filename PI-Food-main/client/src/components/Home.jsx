@@ -21,7 +21,7 @@ export default function Home() {
   //console.log('types useselector', allTypes)
   const [orden, setOrden] = useState("");
   const [paginaActual, setPaginaActual] = useState(1);
-  const [recetasPorPagina, setRecetasPorPagina] = useState(9);
+  const [recetasPorPagina, setRecetasPorPagina] = useState(4);
   const ultimaReceta = paginaActual * recetasPorPagina;
   const primerReceta = ultimaReceta - recetasPorPagina;
   const recetasActuales = allRecipes.slice(primerReceta, ultimaReceta);
@@ -63,7 +63,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="container-general">
       <h1 className="titulos">Recetas Saludables</h1>
       <Link className="link-nueva-receta" to="/recipe">
         Crea tu propia receta
